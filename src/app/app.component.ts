@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clase-01-introduccion';
+  nombre = 'Emilio';
+
+  showAlert() {
+    alert('Cara de bobo');
+  }
 }
